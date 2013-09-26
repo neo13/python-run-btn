@@ -1,21 +1,14 @@
 [{
-    "author": "Your Name",
-    "version": "Your Version",
-    "name": "Your Plugin Name",
-    "url": "https://github.com/Codiad/Codiad-Plugin-Template",
-    "rightbar": [
-        {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
-            "icon": "icon-info-circled",
-            "title": "This will be displayed in the rightbar"
-        }
-    ],
+    "author": "Ahmad Derakhshan (Neo13)",
+    "version": "0.0.1",
+    "name": "runpy",
+    "url": "https://github.com/neo13/python-run-btn",
     "contextmenu": [
         {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
-            "icon": "icon-info-circled",
-            "applies-to": "both",
-            "title": "This will be displayed in the contextmenu"
+            "action": "codiad.runpy.exec();",
+            "icon": "icon-play",
+            "applies-to": "file",
+            "title": "Running the script..."
         }
     ]
 }]
